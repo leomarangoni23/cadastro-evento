@@ -44,7 +44,7 @@ while (opcao != 0) {
             case "1":
                 console.log("Participantes: ")
                     //Enquanto participantes for menor que 100 e resposta for igual a SIM
-                while ((i < 3) && (resp == "SIM")) {
+                while ((i < 100) && (resp == "SIM")) {
                     let nomeParticipante = readlineSync.question("Nome do participante: ");
                     let idadeParticipante = readlineSync.question("Idade do participante: ");
                     listaDeParticipantes.push(nomeParticipante);
@@ -64,7 +64,7 @@ while (opcao != 0) {
 
                     i++;
 
-                    if ((i == 3) && (resp === "SIM")) {
+                    if ((i == 100) && (resp === "SIM")) {
                         console.log("Limite de participantes esgotado");
                     }
                 }
