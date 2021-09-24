@@ -2,7 +2,7 @@
 let readlineSync = require("readline-sync");
 let opcao;
 
-const numPart = 3;
+const numPart = 100;
 console.log("---------Cadastro de eventos---------");
 console.log();
 
